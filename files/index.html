@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Dragon's Keep</title>
+
+  <!-- Google Font: gives the site its fantasy look -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Our stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+    NAVIGATION BAR
+    CHANGE 1: Replaced the SVG dragon logo with
+    just the 🐉 emoji. Much simpler!
+    Removed the Soundboard link too.
+  ============================================= -->
+  <nav>
+    <div class="logo">🐉 The Dragon's Keep</div>
+    <ul>
+      <li><a href="#about">What is D&D?</a></li>
+      <li><a href="#classes">Classes</a></li>
+      <li><a href="#how-to-play">How to Play</a></li>
+      <li><a href="#battle">Battle</a></li>
+    </ul>
+  </nav>
+
+  <!-- =============================================
+    HERO SECTION
+    The big opening screen visitors see first.
+  ============================================= -->
+  <section id="hero">
+    <div class="hero-dragon">🐉</div>
+    <h1>The Dragon's Keep</h1>
+    <p>Your beginner's guide to Dungeons &amp; Dragons</p>
+    <a href="#about" class="btn">Start Your Adventure</a>
+  </section>
+
+  <!-- =============================================
+    WHAT IS D&D SECTION
+    Simple explanation for total beginners.
+  ============================================= -->
+  <section id="about">
+    <h2>What is D&amp;D?</h2>
+    <p class="section-intro">
+      Dungeons &amp; Dragons is a <strong>cooperative storytelling game</strong>.
+      You create a character, team up with friends, and go on adventures together —
+      battling monsters, solving puzzles, and making choices that shape the story.
+    </p>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="card-icon">🎲</div>
+        <h3>Roll Dice</h3>
+        <p>A 20-sided die (d20) decides if your actions succeed or fail. High roll = good. Low roll = trouble!</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">📖</div>
+        <h3>Tell a Story</h3>
+        <p>One player is the Dungeon Master. They describe the world. Everyone else decides what to do next.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">⚔️</div>
+        <h3>Fight &amp; Survive</h3>
+        <p>When a fight breaks out, players take turns attacking. Teamwork is the key to winning.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =============================================
+    CHARACTER CLASSES SECTION
+  ============================================= -->
+  <section id="classes" class="dark-section">
+    <h2>Choose Your Class</h2>
+    <p class="section-intro">Your class is your character's job. Each one plays differently.</p>
+
+    <div class="class-grid">
+
+      <div class="class-card">
+        <span class="class-icon">⚔️</span>
+        <h3>Fighter</h3>
+        <p>The toughest warrior. Great for beginners. Stands in front and takes hits for the team.</p>
+        <span class="badge">Best for Beginners</span>
+      </div>
+
+      <div class="class-card">
+        <span class="class-icon">🧙</span>
+        <h3>Wizard</h3>
+        <p>Powerful magic user. Casts spells like Fireball. Fragile but devastating from a distance.</p>
+        <span class="badge">High Damage</span>
+      </div>
+
+      <div class="class-card">
+        <span class="class-icon">✨</span>
+        <h3>Cleric</h3>
+        <p>The healer of the group. Keeps teammates alive. Also deals damage with holy power.</p>
+        <span class="badge">Team Healer</span>
+      </div>
+
+      <div class="class-card">
+        <span class="class-icon">🗡️</span>
+        <h3>Rogue</h3>
+        <p>Sneaky and fast. Deals massive damage from the shadows. Expert at traps and locks.</p>
+        <span class="badge">Stealth Expert</span>
+      </div>
+
+      <div class="class-card">
+        <span class="class-icon">🏹</span>
+        <h3>Ranger</h3>
+        <p>Master archer and wilderness tracker. Great at long range and has an animal companion.</p>
+        <span class="badge">Ranged Fighter</span>
+      </div>
+
+      <div class="class-card">
+        <span class="class-icon">💢</span>
+        <h3>Barbarian</h3>
+        <p>Goes into a RAGE for bonus damage. Has the most HP of any class. Very fun for beginners!</p>
+        <span class="badge">Best for Beginners</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =============================================
+    HOW TO PLAY SECTION
+    CHANGE 2: Removed the decorative SVG header
+    ornaments. Just a clean h2 heading now.
+  ============================================= -->
+  <section id="how-to-play">
+    <h2>How to Play</h2>
+    <p class="section-intro">D&amp;D has a simple rhythm. Once you get it, everything clicks.</p>
+
+    <div class="steps">
+
+      <div class="step">
+        <div class="step-num">01</div>
+        <div class="step-body">
+          <h3>Create Your Character</h3>
+          <p>Pick a <strong>Race</strong> (Human, Elf, Dwarf…) and a <strong>Class</strong> (Fighter, Wizard…). Roll dice to set your stats. Give your character a name and backstory.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">02</div>
+        <div class="step-body">
+          <h3>The DM Sets the Scene</h3>
+          <p>The Dungeon Master describes the world around you. Your group decides what to do — explore, fight, or negotiate. There are no wrong answers.</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">03</div>
+        <div class="step-body">
+          <h3>Roll for Everything</h3>
+          <p>Trying to pick a lock? Climb a wall? Persuade a guard? Roll a d20 and add your stat bonus. Beat the Difficulty Class (DC) and you succeed!</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">04</div>
+        <div class="step-body">
+          <h3>Fight in Rounds</h3>
+          <p>Combat is turn-based. Everyone rolls <strong>Initiative</strong> to see who goes first. On your turn: Move, then take an Action (attack, cast a spell, help a teammate).</p>
+        </div>
+      </div>
+
+      <div class="step">
+        <div class="step-num">05</div>
+        <div class="step-body">
+          <h3>Rest &amp; Level Up</h3>
+          <p>After a battle, rest to recover HP. Earn enough XP and your character <strong>levels up</strong> — getting stronger stats and powerful new abilities.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =============================================
+    BATTLE DEMO SECTION
+    The interactive JavaScript feature.
+  ============================================= -->
+  <section id="battle" class="dark-section">
+    <h2>⚔️ Try a Battle!</h2>
+    <p class="section-intro">You're a Fighter. Defeat the Goblin before it defeats you!</p>
+
+    <div class="arena">
+
+      <div class="fighter" id="player-box">
+        <div class="fighter-emoji">🧑‍⚔️</div>
+        <div class="fighter-name">You (Fighter)</div>
+        <div class="hp-label">HP: <span id="player-hp">20</span> / 20</div>
+        <div class="hp-bar">
+          <div class="hp-fill green" id="player-bar"></div>
+        </div>
+      </div>
+
+      <div class="vs">VS</div>
+
+      <div class="fighter" id="enemy-box">
+        <div class="fighter-emoji">👺</div>
+        <div class="fighter-name">Goblin</div>
+        <div class="hp-label">HP: <span id="enemy-hp">7</span> / 7</div>
+        <div class="hp-bar">
+          <div class="hp-fill red" id="enemy-bar"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="battle-buttons">
+      <button onclick="playerAction('attack')">⚔️ Attack</button>
+      <button onclick="playerAction('spell')">🔥 Firebolt</button>
+      <button onclick="playerAction('dodge')">🛡️ Dodge</button>
+    </div>
+
+    <div id="dice-result" class="dice-result">🎲 Roll to begin!</div>
+
+    <div id="log" class="log"></div>
+
+    <button id="restart-btn" onclick="restartBattle()" style="display:none">🔄 Play Again</button>
+
+  </section>
+
+  <!-- =============================================
+    FOOTER
+    CHANGE 3: Removed soundboard link from footer.
+  ============================================= -->
+  <footer>
+    <p>🐉 The Dragon's Keep &nbsp;|&nbsp; Made by Betsy</p>
+    <p style="margin-top: 0.5rem; font-size: 0.75rem; opacity: 0.5;">D&amp;D is © Wizards of the Coast</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
