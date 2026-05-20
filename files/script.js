@@ -1,25 +1,3 @@
-// =============================================
-// script.js — The Dragon's Keep
-//
-// WHAT WAS BROKEN ON iPAD:
-// The old version wrapped all functions inside
-// DOMContentLoaded, which meant the onclick=""
-// buttons in the HTML couldn't find them yet.
-//
-// THE FIX:
-// All game functions are now declared at the
-// TOP LEVEL — outside of any wrapper — so the
-// browser can find them immediately, on any device.
-// =============================================
-
-
-// =============================================
-// PART 1: GAME STATE
-//
-// One object holds all the numbers.
-// JS reads and changes these every turn.
-// =============================================
-
 var game = {
   playerHP:      20,
   playerMax:     20,
@@ -29,12 +7,6 @@ var game = {
   isOver:        false,
   playerDodging: false
 };
-
-
-// =============================================
-// HELPER FUNCTIONS
-// Small reusable tools the battle uses.
-// =============================================
 
 // Roll a die — returns a random number 1 to `sides`
 function rollDie(sides) {
